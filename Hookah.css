@@ -1,0 +1,512 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header
+{
+    width: 1174px;
+    position: absolute;
+    top: 0;
+    padding: 0px 20px;
+    height: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.headSmedia
+{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.headBtn
+{
+    height: 140px;
+    display: flex;
+    align-items: ;
+    gap: 20px;
+}
+.btn1Head
+{
+    width: 220px;
+    height: 65px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #9B51E0;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.btn2Head
+{
+    width: 220px;
+    height: 55px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.phone
+{
+    display: none;
+}
+.sec1
+{
+    height: 750px;   
+    color: white;
+}
+.textsec1
+{
+    width: 500px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 230px;
+    left: 180px;
+}
+.btnOrder
+{
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: #F2994A;
+    color: white;
+    font-size: 18px; 
+    font-weight: 700;
+    box-shadow: 0px 0px 15px #F2994A;
+}
+.hookanpic
+{
+    position: absolute;
+    top: -80px;
+    right: 180px;
+}
+.imgsec1phohe
+{
+    display: none;
+}
+.text2sec1
+{
+    display: none;
+}
+.sec2
+{
+    width: 1214px;
+    height: 131px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.sec2text1
+{
+    width: 282px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.circlenum
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #9B51E0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sec3
+{
+    width: 1214px;
+    height: 451px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+.sec3Boxes
+{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.BoxS3
+{
+    width: 188px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px #0000001A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+}
+.sec4
+{
+    margin-top: 50px;
+    background-image: url(/Mask\ Group\ \(1\).png);
+    width: 100%;
+    height: 897px;
+}
+.sec4Get
+{
+    width: 1214px;
+    height: 814px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec4Boxes
+{
+    width: 915px;
+    height: 814px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec4Boxes1
+{
+    width: 915px;
+    height: 704px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.BoxS4
+{
+    width: 282px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnHook
+{
+    width: 282px;
+    height: 56px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 30px #0000143d;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+}
+.btnBoxs4
+{
+    width: 906px;
+    height: 90px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: #F2994A;
+    color: white;
+    font-size: 22px; 
+    font-weight: 700;
+    box-shadow: 0px 0px 15px #F2994A;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sec5
+{
+    width: 1214px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 20px;
+    background-image: url(/d047327075e526410133dae53b846b2a\ 1.png);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec51
+{
+    display: none;
+}
+.sec6
+{
+    width: 1214px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.divS6
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec6Box
+{
+    width: 386px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.sec7
+{
+    width: 100%;
+    height: 785px;
+    background-image: url(Mask\ Group\ \(3\).png);
+    margin-top: 70px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+.sec7Boxes
+{
+    width: 1214px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.BoxS7
+{
+    width: 282px;
+    height: 74px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sec7Cont
+{
+    width: 1214px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.ContS7
+{
+    width: 346px;
+    height: 190px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divUser
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+@media (max-width: 510px) {
+    header
+    {
+        width: 100%;
+    }
+    .header
+    {
+        width: 380px;
+        padding: 10px;
+    }
+    .logo
+    {
+        width: 110px;
+        height: 110px;
+    }
+    .headBtn
+    {
+        display: none;
+    }
+    .phone
+    {
+        display: block !important;
+        width: 40px;
+        height: 40px;
+    }
+    .headSmedia
+    {
+        display: none;
+    }
+    .hookanpic
+    {
+        width: 410px;
+        top: 0px;
+        left: -20px;
+        
+    }
+    .imgsec1phohe
+    {
+        display: block;
+        top: 0;
+    }
+    .imgsec1
+    {
+        display: none;
+    }
+    .text2sec1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+        position: absolute;
+        top: 450px;
+        left: 20px;
+        width: 350px;
+        text-align: center
+    }
+    .textsec1
+    {
+        display: none;
+    }
+    .sec2
+    {
+        width: 90%;
+        margin-top: 40px;
+        height: 200px;
+        gap: 30px;
+    }
+    .sec2text1
+    {
+        height: 110px;
+        gap: 0px;
+    }
+    .sec3
+    {
+        width: 90%;
+        margin-top: 250px;
+    }
+    .BoxS3
+    {
+        width: 90%;
+    }
+    .sec4
+    {
+        width: 100%;
+        margin-top: 1350px;
+        height: 2400px;
+    }
+    .sec4Get
+    {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        gap: 30px;
+    }
+    .sec4Boxes, .sec4Boxes1
+    {
+        width: 90%;
+        gap: 20px;
+        margin: auto;
+    }
+    .btnBoxs4
+    {
+        width: 90%;
+        font-size: 14px;
+        padding: 20px 30px;
+        margin: auto;
+        margin-top: 1350px;  
+    }
+    .sec5{
+        display: none;
+    }
+    .sec51
+    {
+        width: 300px;
+        height: 175px;
+        padding: 20px;
+        background-image: url(/Mask\ Group\ \(2\).png);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .sec6
+    {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        row-gap: 30px;
+    }
+    .divS6
+    {
+        row-gap: 30px;
+    }
+    .sec7
+    {
+        height: 1250px;
+    }
+    .sec7Boxes, .sec7Cont
+    {
+        width: 90%;
+    }
+    .sec7Cont
+    {
+    
+    }
+    .sec7h
+    {
+        color: black;
+    }
+    #cs7
+    {
+        display: block;
+    }
+    .ContS7
+    {
+        display: none;
+    }
+}
